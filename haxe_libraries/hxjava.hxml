@@ -1,0 +1,4 @@
+-cp ../hxjava
+-D hxjava=4.2.0
+${SCOPE_DIR}/../hxjava/extraParams.hxml
+--macro Sys.println("haxe_libraries/hxjava.hxml:2: [Warning] Using dev version of library hxjava")

@@ -1,0 +1,8 @@
+--class-path src
+--main Main
+--jvm bin/Main.jar
+
+--java-lib libs/commons-compress-1.21.jar
+--java-lib libs/asm-9.2.jar
+
+--define no-deprecation-warnings
