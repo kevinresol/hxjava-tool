@@ -74,7 +74,7 @@ class Main {
 		// final modules = Paths.get('$folder/modules');
 		final rewritten = rewrite(modules);
 		final packed = pack(rewritten);
-		trace(packed);
+		log(packed.toString());
 	}
 
 	function download(url:String) {
