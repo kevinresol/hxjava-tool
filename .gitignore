@@ -1,2 +1,5 @@
 bin
-out
+
+out/**/interim/
+out/**/jdk/
+out/**/modules/
